@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;0,700;1,100;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form>
+        <h2>Cadastros</h2>
+        <input type="text"   id="nome" placeholder="Nome Completo">
+        <input type="text"   id="telefone" placeholder="Telefone" maxlength="11">
+        <input type="text"   id="cep" placeholder="CEP">
+        <input type="text"   id="logradouro" placeholder="Rua">
+        <input type="text"   id="bairro" placeholder="bairro">
+        <input type="text"   id="localidade" placeholder="Estado">
+        <input type="submit" id="enviar" value="Enviar">
+    </form>
+
+ <table>
+     <thead>
+         <tr>
+             <th>Cliente</th>
+             <th>Telefone</th>
+             <th>CEP</th>
+             <th>Rua</th>
+             <th>Bairro</th>
+             <th>Estado</th>
+         </tr>
+     </thead>
+     <tbody id="clientes">
+     </tbody>
+ </table>
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+*{font-family: 'Montserrat', sans-serif;padding: 0; margin: 0; box-sizing: border-box;}
+body{display: flex;justify-content: space-between;margin: 50px}
+form{background-color: rgb(236, 236, 236);margin: 0px auto; padding: 50px 0px;display:flex;flex-direction: column;width: 550px;}
+form h2{padding-bottom: 20px;text-align: center;}
+form input{width: 350px;border: none; border-radius: 5px;margin:10px auto;padding: 5px 10px;}
+form input[type="submit"]{background-color: blue;color:#fff;width: 150px;padding: 8px 15px;box-shadow: 0 0 0.5em blue;}
+form input[type="submit"]:hover{background-color: rgb(2, 0, 143);transition: 1s;}
+
+
+
+
+table{width: 550px;}
+th{background-color:  rgb(236, 236, 236);padding: 5px 25px;}
+td{background-color:  rgb(245, 245, 245);}
