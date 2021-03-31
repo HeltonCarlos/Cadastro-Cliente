@@ -8,9 +8,9 @@ document.querySelector('#enviar').addEventListener('click',e=>{
    if (!nome || !telefone || !cep || !bairro || !localidade){
     alert('*Preencha o campo!')}
 
-   var cliente = {nome,telefone, cep, bairro, localidade}
+   var cliente = {nome,telefone,cep,bairro,localidade}
 
-   var cli=localStorage.cli ? JSON.parse(localStorage).[]
+   var cli=localStorage.cli ? JSON.parse(localStorage.cli):[]
    cli.push(cliente);
    localStorage.cli=JSON.stringify(cli);
  })
